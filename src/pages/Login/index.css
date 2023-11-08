@@ -1,0 +1,111 @@
+.hero {
+    display: flex;
+    width: 100%;
+    margin-top: 2pc;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.titleLogin {
+    margin-top: 2pc;
+}
+
+.titleSteam2 {
+    color: #03707F;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2pc;
+}
+
+.information input {
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding-left: 14px;
+    margin-bottom: 1pc;
+    width: 22pc;
+    height: 2.5pc;
+}
+
+.information label {
+    margin-bottom: 10px;
+}
+
+.rememberLabel {
+    margin-right: 10pc;
+}
+
+.remember {
+    display: flex;
+    font-size: 12px;
+}
+
+.forgotpasw a {
+    color: black;
+    text-decoration: none;
+}
+
+.botonesLogin {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1pc;
+}
+
+.botonesLogin button {
+    cursor: pointer;
+    border-radius: 8px;
+    width: 23pc;
+    height: 2.5pc;
+}
+
+.btnSignIn {
+    background-color: #03707F;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.btnSignGoogle {
+    border: 1px solid #dcdcdc;
+    background-color: white;
+}
+
+.btnSignGoogle img {
+    padding-right: 8px;
+}
+
+.linkSignUp {
+    margin-top: 8px;
+}
+
+.linkSignUp p {
+    font-size: 12px;
+}
+
+.linkSignUp a {
+    color: #0096A8;
+    text-decoration: none;
+}
+
+.imgTeam {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.containerImgDrs {
+    width: 27pc;
+    height: 30pc;
+}
+
+.containerImgDrs img {
+    width: 100%;
+    height: 100%;
+}

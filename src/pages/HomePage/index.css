@@ -1,0 +1,235 @@
+.primary {
+    margin-top: 1.5pc;
+    height: 80vh;
+}
+
+.containerH {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80vh;
+}
+
+.containerDescription {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4pc;
+    width: 50%;
+}
+
+.titleHealth {
+    margin-bottom: 2pc;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.miniD {
+    font-size: 20px;
+    margin-bottom: 1pc;
+}
+
+.botones {
+    display: flex;
+    align-items: center;
+}
+
+.btnLog {
+    width: 14pc;
+    height: 3pc;
+    background-color: #03707F;
+    border-radius: 20px;
+    border: none;
+}
+
+.btnLog:hover {
+    cursor: pointer;
+    background-color: #00BDD2;
+    transition: all ease-in-out 0.7s;
+}
+
+.btnApo {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+.btnL {
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    margin-left: 2pc;
+    font-size: 16px;
+}
+
+.btnL:hover {
+    color: #00BDD2;
+
+}
+
+.containerImgDr {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ballImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C6FFF8;
+    border-radius: 100%;
+    width: 20pc;
+    height: 20pc;
+}
+
+.imgDr {
+    width: 25pc;
+    height: 25pc;
+}
+
+.imgDr img {
+    position: relative;
+    top: -1pc;
+    width: 100%;
+    height: 100%;
+}
+
+.imgNumberOne {
+    width: 3pc;
+    height: 3pc;
+    margin-top: 9px;
+    margin-right: 4px;
+}
+
+.imgNumberOne img {
+    width: 100%;
+    height: 100%;
+}
+
+.nrOne {
+    display: flex;
+    background-color: #dffffc;
+    position: absolute;
+    top: 26pc;
+    right: 30pc;
+    border-radius: 22px;
+    padding: 10px;
+}
+
+.imgNumberTwo {
+    position: relative;
+    top: -8pc;
+    right: 2pc;
+    background-color: #e9faf8;
+    padding: 14px;
+    border-radius: 50%;
+    width: 4pc;
+    height: 4pc;
+}
+
+.imgNumberTwo img {
+    width: 100%;
+    height: 100%;
+}
+
+.imgNumberThree {
+    position: relative;
+    top: 8pc;
+    right: 7pc;
+    background-color: #e9faf8;
+    padding: 14px;
+    border-radius: 50%;
+    width: 4pc;
+    height: 4pc;
+}
+
+.imgNumberThree img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ABOUT US */
+
+
+.secondary {
+    display: flex;
+    height: 70vh;
+    width: 100%;
+}
+
+.aboutUs {
+    display: flex;
+}
+
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+
+.imageContainerWrite {
+    position: absolute;
+    z-index: 0;
+    width: 18pc;
+    height: 14pc;
+}
+
+.imageContainerWrite img {
+    width: 100%;
+    height: 100%;
+}
+
+.imageContainerCientiifi {
+    position: absolute;
+    z-index: 1;
+    top: 50pc;
+    left: 23pc;
+    width: 14pc;
+    height: 10pc;
+}
+
+.imageContainerCientiifi img {
+    width: 100%;
+    height: 100%;
+}
+
+.imageContainerDrs {
+    position: absolute;
+    z-index: 2;
+    top: 52pc;
+    left: 6pc;
+    width: 14pc;
+    height: 10pc;
+}
+
+.imageContainerDrs img {
+    width: 100%;
+    height: 100%;
+}
+
+.descriptionSecondary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 6pc;
+    width: 50%;
+
+}
+
+.containerImgContact {
+    width: 3.5pc;
+    height: 3.5pc;
+}
+
+.containerImgContact img {
+    width: 100%;
+    height: 100%;
+}

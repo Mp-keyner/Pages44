@@ -1,0 +1,14 @@
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.containerImgErr {
+    width: 30pc;
+}
+
+.containerImgErr img {
+    width: 100%;
+}

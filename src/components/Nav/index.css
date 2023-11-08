@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titleDesc {
+    display: flex;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #03707F;
+}
+
+.titleSteam {
+    margin-left: 2pc;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    margin-right: 1pc;
+}
+
+.links ul li {
+    margin-right: 12px;
+    list-style: none;
+}
+
+.links ul a {
+    color: black;
+    text-decoration: none;
+}
+
+.links ul a:hover {
+    color: #00BDD2;
+    cursor: pointer;
+}
